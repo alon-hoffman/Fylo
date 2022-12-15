@@ -1,0 +1,17 @@
+
+.intro-image{
+    width:720px;
+    height:534px;
+   
+}
+button{
+    background-color: $cyan;
+    color:white;
+    font-size: 16px;
+    &.main-cta{
+        width:280px;
+        height:56px;
+        border-radius: 40px;
+    }
+}
+

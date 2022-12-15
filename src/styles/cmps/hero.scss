@@ -1,0 +1,70 @@
+.hero{
+    background-image: url("/src/assets/imgs/bg-curvy-desktop.svg");
+    background: no-repeat;
+    text-align: center;
+    .title{
+        padding-top: 40px;
+        padding-bottom: 162px;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .demos{
+        padding-inline-end: 20px;
+        padding-top: 170px;
+        display: grid;
+        grid-template-columns: 349px 349px;
+        grid-template-rows: auto auto;
+        grid-column-gap:160px;
+        grid-row-gap:155px;
+        .demo{
+            h1{
+                font-weight:bold;
+                font-size: 20px;
+                padding-top: 25px;
+            }
+            img{
+                width:81px;
+                height:81px;
+                object-fit: contain;
+            }
+        }
+    }
+    .image-text {
+        align-self: start;
+        padding-inline-start: 105px;
+        padding-top: 200px;
+        text-align: start;
+        .text{
+                padding-top: 115px;
+                padding-bottom: 65px;
+                padding-left: 60px;
+            h1{
+                font-size: 40px;
+                font-weight:bold;
+            }
+            a{
+                width:56%;
+                border-bottom: 1px solid $cyan;
+            }
+        }
+        img{
+            width:615px;
+            height:464px;
+        }
+    }
+    .reviews{
+        .review{
+            text-align: start;
+            width:360px;
+            height:200px;
+        }
+        img{
+            width: 24px;
+            height:24px;
+            border-radius: 50%;
+        }
+    }
+    .getting-started{
+        padding-top: 100px;
+    }
+}
